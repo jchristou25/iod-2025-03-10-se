@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+    <title>Module 1 Exercise 3</title>
+    <style>
+        body { font-family: sans-serif; margin: 0; }
+        .container { display: flex; min-height: 
+100vh; align-items: stretch; }
+            .column { background: goldenrod; display:
+flex; flex-direction: column; justify-content: center; align-items: center; flex: 1; }
+            
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="column" id="column1">
+            <h1 id="heading1">Hello</h1>
+            <button id="button1" style= background-color:purple; onclick="buttonOne()">Change Me!</button>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Flower_jtca001.jpg" width="500" height="333">
+        
+    
+        </div>
+        <div class="column" id="column2">
+            <h1 id="heading2">World</h1>
+            <button id="button2" style= background-color:orange; onclick="buttonTwo()">Change Me!</button>           
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Pink_flower.jpg" width="500" height="333">
+            </div>
+
+<script>
+function buttonOne() {
+    document.getElementById("column1").style.backgroundColor="red";
+    document.getElementById("heading1").innerText = "You are"
+}
+function buttonTwo() {
+    document.getElementById("column2").style.backgroundColor="blue";
+    document.getElementById("heading2").innerText = "welcome here!"
+}
+</script>
+</body>       
+</html>
