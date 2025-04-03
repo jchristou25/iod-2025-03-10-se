@@ -20,3 +20,6 @@ function add(a, b) {
   }
   console.log(subtract(5, 2)); 
   console.log(add(4, 6));
+  console.log(multiply(5, 5));
+  console.log(divide(21,7));
+  
