@@ -1,2 +1,11 @@
- 
-let myArray = [1, 2, 3, 4, 5];
+ // Array of flowers
+
+<script> 
+
+    const myArray = ["iris", "daffodil", "hydrangea", "daisy", "tulip"];
+    console.log(myArray);
+    
+
+</script>
+
+// Expected output: iris, daffodil, hydrangea, daisy, tulip
