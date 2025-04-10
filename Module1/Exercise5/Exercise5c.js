@@ -1,8 +1,22 @@
 // Array of flowers
 
 
-const myArray = ["dahlia", "rose", "daffodil", "hydrangea", "sunflower"];
-console.log(myArray);
+let flowers = ['iris', 'daffodil', 'hydrangea', 'daisy', 'tulip'];
+console.log(flowers[0]); // 'iris'
+console.log(flowers[1]); // 'daffodil'
+console.log(flowers[2]); // 'hydrangea'
+console.log(flowers[3]); // 'daisy'
+console.log(flowers[4]); // 'tulip'
 
+flowers[1] = 'rose';
+flowers[4] = 'dahlia'
+console.log(flowers); // ['iris', 'rose', 'hydrangea', 'daisy', 'dahlia']
 
-// Expected output: dahlia, rose, daffodil, hydrangea, sunflower
+let flowers = ['iris', 'rose', 'hydrangea', 'daisy', 'dahlia']
+let lastflower = flowers.at.prototype();
+console.log(lastflower); //dahlia
+console.log(flowers); // ['iris', 'rose', 'hydrangea', 'daisy']
+
+flowers.unshift('sunflower');
+console.log(flowers); // ['sunflower', 'iris', 'rose', 'hydrangea', 'daisy']
+
